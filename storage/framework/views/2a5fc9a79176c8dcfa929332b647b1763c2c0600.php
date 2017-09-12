@@ -66,7 +66,7 @@ and open the template in the editor.
             <div class="col-sm-6 rightContainer">
                 <div class="logoContainer">
                     <div class="logo">
-                        <img src="img/logo/eliteadmin-logo.png" alt="Logo" class="img-responsive">
+                        <img src="img/logo/Sip2Ring.png" alt="Logo" class="img-responsive">
                     </div>
                     <div class="logoText">Enterprise call tracking for professional marketers.</div>
                     <div class="socialBox">

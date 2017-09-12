@@ -47,7 +47,7 @@
                     <a href="">Manage Publishers</a>
                 </li>
                 <li>
-                    <a href="">Create Publishers</a>
+                    <a href="<?php echo e(url('/add-publishers')); ?>">Create Publishers</a>
                 </li>
             </ul>
         </li>
@@ -68,7 +68,7 @@
                     <a href="">Manage Groups</a>
                 </li>
                 <li>
-                    <a href="">Add Group</a>
+                    <a href="<?php echo e(url('/add-group')); ?>">Add Group</a>
                 </li>
             </ul>
         </li>
@@ -83,7 +83,7 @@
                     <a href="">Manage Buyers</a>
                 </li>
                 <li>
-                    <a href="">Add Buyers</a>
+                    <a href="<?php echo e(url('/add-buyer')); ?>">Add Buyers</a>
                 </li>
             </ul>
         </li>
@@ -125,7 +125,7 @@
                     <a href="">Pixels</a>
                 </li>
                 <li>
-                    <a href="">Webhooks</a>
+                    <a href="<?php echo e(url('/web-hooks')); ?>">Webhooks</a>
                 </li>
             </ul>
         </li>
@@ -143,10 +143,13 @@
                     <a href="">Manage Addresses</a>
                 </li>
                 <li>
-                    <a href="">Add Addresses</a>
+                    <a href="<?php echo e(url('/user-address')); ?>">Add Addresses</a>
                 </li>
                 <li>
                     <a href="">Billing Settings</a>
+                </li>
+                 <li>
+                    <a href="<?php echo e(url('/userprofile')); ?>">Profile</a>
                 </li>
                 
                 <li>

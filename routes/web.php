@@ -38,10 +38,17 @@ Route::resource('/admins', 'AdminsController', ['except' => [
 // Authentication Routes
 Auth::routes();
 
-Route::get('/logout', 'Auth\LoginController@logout');
-Route::get('/add-target', 'UsersController@target');
-Route::get('/get-table', 'UsersController@getTable');
-Route::get('/view-table', 'UsersController@table');
-Route::get('/user-add', 'UseraddController@aduserTemplate');
-Route::any('/user-insert', 'UseraddController@aduserInsert');
-Route::get('/userprofile', 'UseraddController@userprofileUpdate');
+Route::get('/logout','Auth\LoginController@logout');
+Route::get('/add-target','TargetsController@addtarget');
+Route::get('/add-group','TargetsController@addgroup');
+Route::get('/get-table','UsersController@getTable');
+Route::get('/view-table','UsersController@table');
+Route::get('/user-address', 'UseraddController@aduserTemplate');
+Route::any('/user-insert','UseraddController@aduserInsert');
+Route::get('/userprofile','UseraddController@userprofileUpdate');
+Route::any('/add-buyer', 'BuyersController@addBuyer');
+Route::post('/update-profile','UseraddController@updateProfile');
+Route::get('/web-hooks','UseraddController@intigrationWebooks');
+Route::get('/add-publishers','PublishersController@addPublisher');
+Route::get('/get-active-count','PlivoController@getActiveCall');
+Route::get('/get-completed-call','PlivoController@getCompletedCount');
