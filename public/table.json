@@ -1,0 +1,79 @@
+{
+    "info": [{
+            "id": 1,
+            "name": "Super Admin",
+            "email": "aurobindaojha@gmail.com",
+            "is_admin": 1,
+            "role": 1,
+            "created_at": "-0001-11-30 00:00:00",
+            "updated_at": "2017-08-24 12:14:08"
+        },
+        {
+            "id": 2,
+            "name": "Dhirendra Matia", 
+            "email": "dmatia@gmail.com", 
+            "is_admin": 1, 
+            "role": 2, 
+            "created_at": "2017-08-10 10:34:03", 
+            "updated_at": "2017-08-24 10:40:37"
+        },
+        {
+            "id": 19,
+            "name": "Jitendra Pardhan",
+            "email": "jpardhan91@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-22 06:51:24",
+            "updated_at": "2017-08-24 10:45:58"
+        },
+        {
+            "id": 23,
+            "name": "Himanshu Rana",
+            "email": "himanshu.s.rana@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-23 05:14:48",
+            "updated_at": "2017-08-24 10:34:45"
+        }, {
+            "id": 24,
+            "name": "Satish Satapathy",
+            "email": "satishsatapathy1988@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-23 10:16:42",
+            "updated_at": "2017-08-24 10:28:59"
+        }, {
+            "id": 25,
+            "name": "Mayur Rathor",
+            "email": "mayrurathor@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-24 10:55:14",
+            "updated_at": "2017-08-24 10:55:14"
+        }, {
+            "id": 26,
+            "name": "Sarthak Samantray",
+            "email": "sarthak@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-24 10:56:37",
+            "updated_at": "2017-09-06 10:33:48"
+        }, {
+            "id": 27,
+            "name": "Mammath Kuamr Rana",
+            "email": "rana2017@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-24 10:58:21",
+            "updated_at": "2017-08-24 10:58:21"
+        }, {
+            "id": 28,
+            "name": "Satish Moharana",
+            "email": "satishmoharana@gmail.com",
+            "is_admin": 1,
+            "role": 2,
+            "created_at": "2017-08-24 11:00:54",
+            "updated_at": "2017-08-24 11:37:50"
+        }
+    ]
+}
